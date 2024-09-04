@@ -9718,11 +9718,7 @@ section.u-image:not(.u-hover-box),
   .u-layout-col > .u-size-27-xl {
     flex: 27 0 auto;
   }
-  .u-layout-row > .u-size-26-xl {
-    flex: 0 0 43.33333333%;
-    max-width: 43.33333333%;
-    min-width: 43.33333333%;
-  }
+
   .u-layout-col > .u-size-26-xl {
     flex: 26 0 auto;
   }
@@ -11188,11 +11184,7 @@ section.u-image:not(.u-hover-box),
   .u-layout-col > .u-size-27-lg {
     flex: 27 0 auto;
   }
-  .u-layout-row > .u-size-26-lg {
-    flex: 0 0 43.33333333%;
-    max-width: 43.33333333%;
-    min-width: 43.33333333%;
-  }
+
   .u-layout-col > .u-size-26-lg {
     flex: 26 0 auto;
   }
