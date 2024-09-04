@@ -1,4 +1,4 @@
- .u-section-1 {
+.u-section-1 {
   min-height: 691px;
   background-image: none;
 }
@@ -70,7 +70,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 691px;
-  background-image: url("images/handsome-stylish.jpg");
+  /* background-image: url("images/handsome-stylish.jpg"); */
   background-position: 0% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
@@ -84,7 +84,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 564px;
   }
 
@@ -107,7 +107,7 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 366px;
   }
 
@@ -134,7 +134,7 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 646px;
   }
 
@@ -158,7 +158,7 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 432px;
   }
 
@@ -177,7 +177,8 @@
   .u-section-1 .u-image-1 {
     min-height: 364px;
   }
-}.u-section-2 .u-sheet-1 {
+}
+.u-section-2 .u-sheet-1 {
   min-height: 693px;
 }
 
@@ -225,7 +226,8 @@
   --animation-custom_in-scale: 1;
   margin: 40px auto 60px;
   padding: 10px 44px;
-} .u-section-3 {
+}
+.u-section-3 {
   background-image: none;
 }
 
@@ -425,8 +427,14 @@
   .u-section-3 .u-accordion-1 {
     width: 340px;
   }
-} .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/3730262_73938.jpg');
+}
+.u-section-4 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("images/3730262_73938.jpg");
   background-position: 50% 50%;
 }
 
@@ -708,7 +716,8 @@
   .u-section-4 .u-layout-wrap-1 {
     margin-bottom: -232px;
   }
-} .u-section-5 {
+}
+.u-section-5 {
   background-image: none;
 }
 
