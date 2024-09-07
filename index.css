@@ -55,7 +55,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 691px;
-  background-image: url("images/vbbb.jpg");
+  background-image: url("images/vbbb.jpg images/43486273.jpeg");
   background-position: 50% 50%;
 }
 
@@ -211,9 +211,36 @@
 .u-section-2 .u-image-1 {
   width: 239px;
   height: 239px;
-  background-image: url("images/vbbb.jpg");
+  background-image: url("images/43486273.jpeg"), url("images/vbbb.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
+}
+
+.u-section-2
+  .u-large-text.u-text.u-text-variant.u-text-2
+  .fill-in-word::before {
+  color: green;
+  content: "creative";
+  animation-name: word-change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes word-change {
+  25% {
+    color: blue;
+    content: "determined";
+  }
+
+  50% {
+    color: blueviolet;
+    content: "resourceful";
+  }
+
+  75% {
+    color: purple;
+    content: "passionate";
+  }
 }
 
 .u-section-2 .u-layout-cell-3 {
@@ -368,8 +395,10 @@
     margin-bottom: -2px;
   }
 }
-.u-section-3 .u-sheet-1 {
-  min-height: 1329px;
+
+.u-section-3 .u-sheet-1 .u-layout-wrap .u-layout .u-layout-row {
+  flex-wrap: nowrap;
+  gap: 8vw;
 }
 
 .u-section-3 .u-text-1 {
@@ -1135,6 +1164,7 @@
 }
 
 .u-section-5 .u-container-layout-1 {
+  background-color: #e0e5eb;
   padding: 30px;
 }
 
