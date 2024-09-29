@@ -265,6 +265,11 @@
   padding: 20px 30px;
 }
 
+.u-section-3 ul.u-custom-list.u-text.u-text-grey-50.u-text-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .u-section-3 .u-icon-1 {
   height: 20px;
   width: 20px;
@@ -434,7 +439,7 @@
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url("images/3730262_73938.jpg");
+    url("images/fullSizeFatCat.jpg");
   background-position: 50% 50%;
 }
 
@@ -719,6 +724,10 @@
 }
 .u-section-5 {
   background-image: none;
+}
+
+.u-clearfix.u-palette-4-dark-3.u-section-5.black {
+  background-color: black;
 }
 
 .u-section-5 .u-sheet-1 {

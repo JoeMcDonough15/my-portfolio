@@ -211,7 +211,7 @@
 .u-section-2 .u-image-1 {
   width: 239px;
   height: 239px;
-  background-image: url("images/43486273.jpeg"), url("images/vbbb.jpg");
+  background-image: url("images/headshot.jpeg"), url("images/vbbb.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -399,6 +399,10 @@
 .u-section-3 .u-sheet-1 .u-layout-wrap .u-layout .u-layout-row {
   flex-wrap: nowrap;
   gap: 8vw;
+}
+
+.u-clearfix.u-container-align-left.u-section-3 {
+  background-color: #e0e5eb;
 }
 
 .u-section-3 .u-text-1 {
