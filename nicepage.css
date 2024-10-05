@@ -26919,7 +26919,7 @@ section.u-color-1:before,
 .u-container-layout.u-container-layout.u-color-1:before,
 .u-table-alt-color-1 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #ec563d;
+  background-color: teal;
 }
 .u-input.u-color-1,
 .u-field-input.u-color-1,
@@ -27173,7 +27173,7 @@ section.u-color-1-base:before,
 .u-container-layout.u-container-layout.u-color-1-base:before,
 .u-table-alt-color-1-base tr:nth-child(even) {
   color: #ffffff;
-  background-color: #ec563d;
+  background-color: teal;
 }
 .u-input.u-color-1-base,
 .u-field-input.u-color-1-base,
@@ -29464,7 +29464,7 @@ section.u-palette-1:before,
 .u-container-layout.u-container-layout.u-palette-1:before,
 .u-table-alt-palette-1 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #ec563d;
+  background-color: teal;
 }
 .u-input.u-palette-1,
 .u-field-input.u-palette-1,
@@ -29719,7 +29719,7 @@ section.u-palette-1-base:before,
 .u-container-layout.u-container-layout.u-palette-1-base:before,
 .u-table-alt-palette-1-base tr:nth-child(even) {
   color: #ffffff;
-  background-color: #ec563d;
+  background-color: teal;
 }
 .u-input.u-palette-1-base,
 .u-field-input.u-palette-1-base,
@@ -33428,8 +33428,8 @@ input.u-field-input.u-field-input.u-border-active-color-1-dark-1:checked {
 .u-border-color-1.u-input,
 .u-border-color-1.u-field-input.u-field-input,
 .u-separator-color-1:after {
-  border-color: #ec563d;
-  stroke: #ec563d;
+  border-color: teal;
+  stroke: teal;
 }
 .u-button-style.u-border-color-1 {
   border-color: #ec563d !important;
@@ -33580,8 +33580,8 @@ input.u-field-input.u-field-input.u-border-active-color-1-light-3:checked {
 .u-border-color-1-base.u-input,
 .u-border-color-1-base.u-field-input.u-field-input,
 .u-separator-color-1-base:after {
-  border-color: #ec563d;
-  stroke: #ec563d;
+  border-color: teal;
+  stroke: teal;
 }
 .u-button-style.u-border-color-1-base {
   border-color: #ec563d !important;
@@ -34948,8 +34948,8 @@ input.u-field-input.u-field-input.u-border-active-palette-1-dark-1:checked {
 .u-border-palette-1.u-input,
 .u-border-palette-1.u-field-input.u-field-input,
 .u-separator-palette-1:after {
-  border-color: #ec563d;
-  stroke: #ec563d;
+  border-color: teal;
+  stroke: teal;
 }
 .u-button-style.u-border-palette-1 {
   border-color: #ec563d !important;
@@ -35100,8 +35100,8 @@ input.u-field-input.u-field-input.u-border-active-palette-1-light-3:checked {
 .u-border-palette-1-base.u-input,
 .u-border-palette-1-base.u-field-input.u-field-input,
 .u-separator-palette-1-base:after {
-  border-color: #ec563d;
-  stroke: #ec563d;
+  border-color: teal;
+  stroke: teal;
 }
 .u-button-style.u-border-palette-1-base {
   border-color: #ec563d !important;
@@ -37538,7 +37538,7 @@ a.u-button-style.u-button-style.active
 .u-button-style:hover > .u-text-hover-color-1 .u-svg-link,
 .u-button-style.u-button-style:active > .u-text-active-color-1 .u-svg-link,
 .u-button-style.u-button-style.active > .u-text-active-color-1 .u-svg-link {
-  fill: #ec563d;
+  fill: teal;
 }
 .u-link.u-text-color-1:hover {
   color: #e93e22 !important;
@@ -37828,7 +37828,7 @@ a.u-button-style.u-button-style.active
 .u-button-style.u-button-style.active
   > .u-text-active-color-1-base
   .u-svg-link {
-  fill: #ec563d;
+  fill: teal;
 }
 .u-link.u-text-color-1-base:hover {
   color: #e93e22 !important;
@@ -40412,7 +40412,7 @@ a.u-button-style.u-button-style.active
 .u-button-style:hover > .u-text-hover-palette-1 .u-svg-link,
 .u-button-style.u-button-style:active > .u-text-active-palette-1 .u-svg-link,
 .u-button-style.u-button-style.active > .u-text-active-palette-1 .u-svg-link {
-  fill: #ec563d;
+  fill: teal;
 }
 .u-link.u-text-palette-1:hover {
   color: #e93e22 !important;
@@ -40704,7 +40704,7 @@ a.u-button-style.u-button-style.active
 .u-button-style.u-button-style.active
   > .u-text-active-palette-1-base
   .u-svg-link {
-  fill: #ec563d;
+  fill: teal;
 }
 .u-link.u-text-palette-1-base:hover {
   color: #e93e22 !important;
@@ -45226,7 +45226,7 @@ h5 {
 .u-gradient > .u-container-layout > a,
 .u-image:not(.u-shading) > .u-container-layout > a,
 a {
-  color: #ec563d;
+  color: teal;
 }
 .u-overlap.u-overlap-transparent:not(.u-overlap-contrast)
   .u-header
@@ -45284,7 +45284,7 @@ a:hover {
 .u-gradient > .u-container-layout > blockquote,
 .u-image:not(.u-shading) > .u-container-layout > blockquote,
 blockquote {
-  border-color: #ec563d;
+  border-color: teal;
 }
 .u-overlap.u-overlap-transparent:not(.u-overlap-contrast)
   .u-header

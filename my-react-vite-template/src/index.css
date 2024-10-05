@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* html {
+define custom properties, fonts, colors, etc. 
+} 
+*/
+
+.main-container {
+  margin: auto;
+  width: 90%;
+}

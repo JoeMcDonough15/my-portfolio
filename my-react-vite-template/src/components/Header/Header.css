@@ -1,0 +1,21 @@
+.header.row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-bar.row {
+  display: none;
+}
+
+.hamburger-menu-icon {
+  height: 25px;
+  width: 25;
+}
+
+@media screen and (min-width: 900px) {
+  .nav-bar.row {
+    display: flex;
+  }
+}
