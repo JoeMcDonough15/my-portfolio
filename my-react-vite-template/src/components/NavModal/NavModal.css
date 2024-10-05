@@ -1,0 +1,54 @@
+.nav-modal {
+  display: block;
+  color: var(--white);
+  background-color: var(--black);
+  height: 100vh;
+  padding: 80px 22%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: transform;
+  transition-duration: 1s;
+}
+
+.nav-modal.hide {
+  transform: translate(200%);
+}
+
+.nav-modal.visible {
+  transform: translate(0%);
+}
+
+.close-modal-button {
+  background-color: inherit;
+  border: none;
+  color: inherit;
+  font-size: 1.6rem;
+  left: 12%;
+  position: absolute;
+  top: 5%;
+}
+
+/* @keyframes slide-in {
+  from {
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translate(0%);
+  }
+  to {
+    transform: translate(100%);
+  }
+} */
+
+@media screen and (min-width: 900px) {
+  .nav-modal.visible {
+    display: none;
+  }
+}

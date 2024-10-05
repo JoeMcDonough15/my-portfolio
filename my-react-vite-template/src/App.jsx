@@ -20,7 +20,10 @@ const App = () => {
             navModalOpen={navModalOpen}
             setNavModalOpen={setNavModalOpen}
           />
-          {navModalOpen && <NavModal />}
+          <NavModal
+            navModalOpen={navModalOpen}
+            setNavModalOpen={setNavModalOpen}
+          />
           <main className="main-container">
             <Outlet />
           </main>

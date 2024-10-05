@@ -4,12 +4,37 @@
   padding: 0;
 }
 
-/* html {
-define custom properties, fonts, colors, etc. 
-} 
-*/
+html {
+  --black: #000;
+  --accent: teal;
+  --white: #fff;
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a.active {
+  color: var(--accent);
+}
+
+.row,
+.col,
+.main-container {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
 
 .main-container {
+  align-items: center;
+  justify-content: center;
   margin: auto;
   width: 90%;
 }

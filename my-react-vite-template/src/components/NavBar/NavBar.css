@@ -1,0 +1,14 @@
+.nav-bar.row {
+  display: none;
+}
+
+.nav-bar.col {
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .nav-bar.row {
+    display: flex;
+  }
+}

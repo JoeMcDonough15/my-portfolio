@@ -4,9 +4,10 @@ import "./Header.css";
 
 const Header = ({ navModalOpen, setNavModalOpen }) => {
   return (
-    <header className="header row">
+    <header className="main-container header row">
       <Logo />
       <button
+        className="mobile-menu-button"
         onClick={() => {
           console.log("clicked");
           setNavModalOpen(!navModalOpen);
