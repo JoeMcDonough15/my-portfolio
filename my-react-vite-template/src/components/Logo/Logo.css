@@ -3,3 +3,10 @@
   margin-top: 20px;
   width: 64px;
 }
+
+@media screen and (min-width: 1024px) {
+  .logo-img {
+    height: 85px;
+    width: 85px;
+  }
+}

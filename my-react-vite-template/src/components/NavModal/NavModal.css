@@ -8,11 +8,11 @@
   right: 0;
   top: 0;
   transition: transform;
-  transition-duration: 1s;
+  transition-duration: 750ms;
 }
 
 .nav-modal.hide {
-  transform: translate(200%);
+  transform: translate(100%);
 }
 
 .nav-modal.visible {

@@ -10,5 +10,6 @@
 @media screen and (min-width: 900px) {
   .nav-bar.row {
     display: flex;
+    gap: 1.5vw;
   }
 }
