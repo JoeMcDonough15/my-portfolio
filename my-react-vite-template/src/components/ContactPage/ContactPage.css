@@ -1,0 +1,33 @@
+.contact-links.content-section,
+.external-links,
+.contact-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-details {
+  background-color: var(--lightgrey);
+  color: var(--black);
+}
+
+.contact-links.content-section {
+  padding: 12% 0;
+}
+
+.external-link {
+  transition: all 1500ms;
+}
+
+.external-link:hover,
+.external-link:active {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.link-name {
+  font-size: 1rem;
+}
