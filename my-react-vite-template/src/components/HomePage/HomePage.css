@@ -1,0 +1,55 @@
+.hero-section,
+.more-info {
+  background-color: var(--lightgrey);
+}
+
+.hero-section-header {
+  margin: 20px 0;
+}
+
+.circle-shape,
+.image-circle {
+  border-radius: 50%;
+}
+
+.circle-shape {
+  aspect-ratio: 1/1;
+  background-color: var(--accent);
+  margin-right: 70%;
+  width: clamp(50px, 20vw, 100px);
+}
+
+.fill-in-word::before {
+  color: green;
+  content: "creative";
+  animation-name: word-change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.image-circle {
+  margin-top: 20px;
+  max-width: 300px;
+  width: 53.3vw;
+}
+
+.image-circle > img {
+  border-radius: inherit;
+}
+
+@keyframes word-change {
+  25% {
+    color: blue;
+    content: "determined";
+  }
+
+  50% {
+    color: blueviolet;
+    content: "resourceful";
+  }
+
+  75% {
+    color: purple;
+    content: "passionate";
+  }
+}

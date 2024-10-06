@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage";
 import ContactPage from "./components/ContactPage";
 import MusicPage from "./components/MusicPage";
 import ProjectsPage from "./components/ProjectsPage";
+import Footer from "./components/Footer";
 
 import { useState } from "react";
 
@@ -24,9 +25,10 @@ const App = () => {
             navModalOpen={navModalOpen}
             setNavModalOpen={setNavModalOpen}
           />
-          <main className="main-container">
+          <main>
             <Outlet />
           </main>
+          <Footer />
         </div>
       ),
       children: [

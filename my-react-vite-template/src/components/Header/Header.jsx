@@ -15,7 +15,7 @@ const Header = ({ navModalOpen, setNavModalOpen }) => {
       >
         <img
           className="hamburger-menu-icon"
-          src="../../../public/assets/menu.png"
+          src="/assets/menu.png"
           alt="hamburger-menu-icon"
         />
       </button>
