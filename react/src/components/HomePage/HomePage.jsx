@@ -1,4 +1,6 @@
 import "./HomePage.css";
+import SkillList from "../SkillList";
+import skills from "../../../public/assets/skills.js";
 
 const HomePage = () => {
   return (
@@ -37,109 +39,7 @@ const HomePage = () => {
       </section>
       <section className="skills-section">
         <h2>Here Are Some of My Skills</h2>
-        <ul>
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            HTML5
-          </li>
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            CSS
-          </li>
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            Javascript
-          </li>
-
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            React
-          </li>
-
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            Node.js
-          </li>
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            Express
-          </li>
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            SQLite3
-          </li>
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            Sequelize
-          </li>
-          <li>
-            <div>
-              <svg viewBox="0 0 512 512" width="20px" height="20px">
-                <path
-                  d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-            PostgreSQL
-          </li>
-        </ul>
+        <SkillList listOfSkills={skills} />
       </section>
     </>
   );
