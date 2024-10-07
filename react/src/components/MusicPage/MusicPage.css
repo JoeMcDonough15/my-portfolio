@@ -1,0 +1,16 @@
+.music-hero-image-container {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -9999999;
+}
+
+.music-hero-image {
+  height: 100%;
+  width: 100%;
+}
+
+.main-container.col.music-bio-text {
+  margin-top: 92vh;
+}

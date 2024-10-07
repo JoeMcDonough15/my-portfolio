@@ -36,13 +36,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="skills-section">
-        <h2
-          class="u-align-center u-text u-text-default u-text-1"
-          data-animation-name="customAnimationIn"
-          data-animation-duration="1500"
-        >
-          Here Are Some of My Skills
-        </h2>
+        <h2>Here Are Some of My Skills</h2>
         <ul>
           <li>
             <div>

@@ -5,9 +5,10 @@
 }
 
 html {
-  --black: #000;
+  --black: #0c1411;
   --lightgrey: #dfe3e5;
-  --accent: teal;
+  --mediumgrey: #a7a7a6;
+  --accent: #088176;
   --white: #fff;
   font-family: sans-serif;
   font-size: 1.2rem;

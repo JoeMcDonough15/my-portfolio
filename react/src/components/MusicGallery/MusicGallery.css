@@ -1,0 +1,20 @@
+.music-gallery-container.main-container {
+  height: 100vh;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.gallery-image {
+  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-image.visible {
+  order: -1;
+}
+
+.gallery-image.not-visible {
+  order: 1;
+}
