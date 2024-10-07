@@ -12,21 +12,6 @@ const ContactPage = () => {
             Reach me by email <br />
             joemcdonoughmusic@gmail.com
           </h6>
-
-          <div className="external-links">
-            <Link
-              className="external-link"
-              to="https://github.com/JoeMcDonough15"
-            >
-              <h6 className="link-name">my github</h6>
-            </Link>
-            <Link
-              className="external-link"
-              to="https://www.linkedin.com/in/joe-mcdonough-94599a20b/"
-            >
-              <h6 className="link-name">my linkedin</h6>
-            </Link>
-          </div>
         </div>
       </div>
 
