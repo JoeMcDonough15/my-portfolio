@@ -50,6 +50,10 @@ a.active {
   padding: 20% 0;
 }
 
+.text-block {
+  text-align: center;
+}
+
 .text-block + .text-block {
   padding: 10% 0;
 }

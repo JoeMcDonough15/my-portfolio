@@ -1,20 +1,29 @@
 .music-gallery-container.main-container {
-  height: 100vh;
+  align-items: flex-start;
   justify-content: flex-start;
+  margin: auto;
   overflow: hidden;
   width: 100vw;
 }
 
+.gallery-image-container,
 .gallery-image {
-  flex-shrink: 0;
-  height: 100%;
   width: 100%;
 }
 
-.gallery-image.visible {
+.gallery-image-container {
+  flex-shrink: 0;
+}
+
+.gallery-image-container.visible {
   order: -1;
 }
 
-.gallery-image.not-visible {
+.gallery-image-container.not-visible {
   order: 1;
+}
+
+.main-container.gallery-img-caption {
+  margin-top: 1em;
+  text-align: center;
 }

@@ -1,12 +1,14 @@
 const GalleryImage = ({ imageSrc, imageCaption, isVisible }) => {
   return (
     <figure
-      className={`gallery-image ${isVisible ? "visible" : "not-visible"}`}
+      className={`gallery-image-container ${
+        isVisible ? "visible" : "not-visible"
+      }`}
     >
-      <div className="gallery-img-container">
-        <img src={imageSrc} alt={imageCaption} />
-      </div>
-      <figcaption>{imageCaption}</figcaption>
+      <img className="gallery-image" src={imageSrc} alt={imageCaption} />
+      <figcaption className="main-container gallery-img-caption">
+        {imageCaption}
+      </figcaption>
     </figure>
   );
 };
